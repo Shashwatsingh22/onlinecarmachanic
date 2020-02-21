@@ -1,0 +1,115 @@
+html, body {
+height : 100%;
+}
+body {
+color : #212226;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family : "Raleway", sans-serif;
+}
+p {
+font-family : "Open Sans", sans-serif;
+font-size : 13px;
+font-weight : 400;
+line-height : 24px;
+}
+.place
+{
+  background-color:#E4F9F5;
+  position:relative;
+  bottom: 20px;
+  padding-top:50px;
+  padding-bottom: 0;
+  height:350px;
+  background-image: url(aboutus.jpg);
+  background-size: cover;
+  opacity:0.8;
+}
+.aboutush{
+  color : #706c61;
+  font-size : 65px;
+  font-weight : 100;
+  text-transform : uppercase;
+  margin : 0;
+  display : inline-block;
+  width: 800px;
+  position: relative;
+    top: 90px;
+    left: 100px;
+}
+.position
+{
+  width: 500px;
+  position: relative;
+  left: 30px;
+}
+.position1
+{
+  position:relative;
+  left: 100px;
+bottom: 80px;
+  padding-top:50px;
+  padding-bottom: 0;
+  height:350px;
+}
+.move{
+  position: relative;
+  left: 600px;
+}
+.position2
+{
+  position: relative;
+  bottom: 150px;
+}
+.position3
+{position: relative;
+  top: 70px;
+}
+.logo1
+{
+  position: relative;
+  right: auto;
+    left: 550px;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+}
+.position4
+{
+  position:relative;
+  top: auto;
+    bottom: 40px;
+}
+.logo2
+{
+  position: relative;
+  right: auto;
+    left: 550px;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+}
+.position5
+{
+  position: relative;
+  top: auto;
+    bottom: 40px;
+}
+.logo3
+{
+  position: relative;
+  right: auto;
+    left: 550px;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+}
+.position6
+{
+  position: relative;
+  top:auto;
+  bottom: 40px;
+}
+.footer{
+  height:200px;
+}

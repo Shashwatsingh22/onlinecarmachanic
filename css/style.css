@@ -1,0 +1,167 @@
+header
+{
+  height: 65px;
+width: 100%;
+background-color:hsla(0, 5%, 67%, 0.5);
+position: fixed;
+top: 0;
+left: 0;
+z-index: 10;
+}
+.header
+{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-left
+ {
+  float: left;
+}
+.padding
+{
+  padding-right: 35px;
+}
+.logo {
+  width: 100px;
+    left: 20px;
+    top: auto;
+    bottom: 10px;
+  position: relative;
+  right:20px;
+}
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  background-color: #ffbd69;
+}
+#home {
+background : none;
+height : 100%;
+}
+#bg-video {
+position : fixed;
+top : 50%;
+left : 50%;
+-webkit-transform : translateX(-50%) translateY(-50%);
+transform : translateX(-50%) translateY(-50%);
+min-width : 100%;
+min-height : 100%;
+width : auto;
+height : auto;
+z-index : -1;
+background : no-repeat;
+background-size : cover;
+}
+#top-overlay {
+background-color : rgb(0 0 0 / 0.8);
+width : 100%;
+height : 100%;
+position : fixed;
+top : 0;
+left : 0;
+z-index : -1;
+}
+#top-content {
+width : 100%;
+height : 100%;
+display : table;
+padding-top: 100px;
+padding-left:200px;
+}
+#top-content-inner {
+display : table-cell;
+vertical-align : middle;
+}
+#top-heading h2 {
+color : #fff;
+font-size : 65px;
+font-weight : 100;
+text-transform : uppercase;
+margin : 0;
+display : inline-block;
+width: 700px;
+}
+#top-heading h3 span {
+color : #ffbd69;
+font-weight : 500;
+}
+#top-text p {
+color : #fff;
+font-size : 17px;
+font-weight : 100;
+margin : 8px 0 30px 0;
+}
+.btn {
+font-family : 'Raleway', sans-serif;
+border-radius : 28px;
+font-size : 13px;
+text-transform : uppercase;
+margin : 0 6px;
+padding : 12px 46px 12px 46px;
+-webkit-transition : all 0.5s;
+transition : all 0.5s;
+}
+.btn-top {
+color : #fff;
+border : #fff solid 1px;
+}
+.btn-top:hover, .btn-top:focus {
+color : #fff;
+background-color : #ffbd69;
+border : #ffbd69 solid 1px;
+}
+a{
+  text-decoration: none;
+}
+.signup-modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.fa-times {
+  position: absolute;
+
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+.fa-times:hover {
+  color: #8491a5;
+  background-color: #ccd9ea;
+  transition: 0.3s ease-in-out;
+}
